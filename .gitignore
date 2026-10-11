@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Dataset (large files - download separately)
+Datatset/
+
+# Trained model files
+Model_EfficientNetV2B0/*.keras
+Model_EfficientNetV2B0/*.onnx
+best_brain_tumor_model.keras
+
+# TensorBoard logs
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Environment
+.env
+vv.txt
